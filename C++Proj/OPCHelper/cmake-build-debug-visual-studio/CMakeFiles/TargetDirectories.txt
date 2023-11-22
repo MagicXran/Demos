@@ -1,0 +1,5 @@
+X:/C++Proj/OPCHelper/cmake-build-debug-visual-studio/CMakeFiles/OPCHelper.dir
+X:/C++Proj/OPCHelper/cmake-build-debug-visual-studio/CMakeFiles/ALL_BUILD.dir
+X:/C++Proj/OPCHelper/cmake-build-debug-visual-studio/CMakeFiles/ZERO_CHECK.dir
+X:/C++Proj/OPCHelper/cmake-build-debug-visual-studio/ua/CMakeFiles/ua.dir
+X:/C++Proj/OPCHelper/cmake-build-debug-visual-studio/ua/CMakeFiles/ALL_BUILD.dir

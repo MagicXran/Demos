@@ -1,0 +1,29 @@
+﻿  Building Custom Rule X:/C++Proj/OPCHelper/ua/CMakeLists.txt
+  open62541.c
+open62541.obj : error LNK2019: unresolved external symbol ___WSAFDIsSet@8 referenced in function _UA_EventLoopPOSIX_pollFDs
+open62541.obj : error LNK2019: unresolved external symbol __imp__accept@12 referenced in function _TCP_listenSocketCallback
+open62541.obj : error LNK2019: unresolved external symbol __imp__bind@12 referenced in function _TCP_registerListenSocket
+open62541.obj : error LNK2019: unresolved external symbol __imp__closesocket@4 referenced in function _TCP_delayedClose
+open62541.obj : error LNK2019: unresolved external symbol __imp__connect@12 referenced in function _TCP_openActiveConnection
+open62541.obj : error LNK2019: unresolved external symbol __imp__ioctlsocket@12 referenced in function _UA_socket_set_blocking
+open62541.obj : error LNK2019: unresolved external symbol __imp__getsockname@12 referenced in function _pair
+open62541.obj : error LNK2019: unresolved external symbol __imp__getsockopt@20 referenced in function _getSockError
+open62541.obj : error LNK2019: unresolved external symbol __imp__htonl@4 referenced in function _setupSendMulticastIPv4
+open62541.obj : error LNK2019: unresolved external symbol __imp__listen@8 referenced in function _TCP_registerListenSocket
+open62541.obj : error LNK2019: unresolved external symbol __imp__recv@16 referenced in function _TCP_connectionSocketCallback
+open62541.obj : error LNK2019: unresolved external symbol __imp__select@20 referenced in function _UA_EventLoopPOSIX_pollFDs
+open62541.obj : error LNK2019: unresolved external symbol __imp__send@16 referenced in function _TCP_sendWithConnection
+open62541.obj : error LNK2019: unresolved external symbol __imp__sendto@24 referenced in function _UDP_sendWithConnection
+open62541.obj : error LNK2019: unresolved external symbol __imp__setsockopt@20 referenced in function _UA_EventLoopPOSIX_setReusable
+open62541.obj : error LNK2019: unresolved external symbol __imp__socket@12 referenced in function _TCP_registerListenSocket
+open62541.obj : error LNK2019: unresolved external symbol __imp__gethostname@8 referenced in function _setDefaultConfig
+open62541.obj : error LNK2019: unresolved external symbol __imp__WSAStartup@8 referenced in function _UA_EventLoop_new_POSIX
+open62541.obj : error LNK2019: unresolved external symbol __imp__WSACleanup@0 referenced in function _UA_deinitialize_architecture_network
+open62541.obj : error LNK2019: unresolved external symbol __imp__WSAGetLastError@0 referenced in function _UA_EventLoopPOSIX_pollFDs
+open62541.obj : error LNK2019: unresolved external symbol __imp__WSAPoll@12 referenced in function _TCP_sendWithConnection
+open62541.obj : error LNK2019: unresolved external symbol __imp__getaddrinfo@16 referenced in function _TCP_registerListenSockets
+open62541.obj : error LNK2019: unresolved external symbol __imp__freeaddrinfo@4 referenced in function _TCP_registerListenSockets
+open62541.obj : error LNK2019: unresolved external symbol __imp__getnameinfo@28 referenced in function _TCP_listenSocketCallback
+open62541.obj : error LNK2019: unresolved external symbol __imp__inet_pton@12 referenced in function _setupSendMulticastIPv4
+open62541.obj : error LNK2019: unresolved external symbol __imp__if_nametoindex@4 referenced in function _setupListenMulticastIPv6
+X:\C++Proj\OPCHelper\ua\bin\Debug\ua.dll : fatal error LNK1120: 26 unresolved externals

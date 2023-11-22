@@ -1,0 +1,6 @@
+X:/C++Proj/ICM/cmake-build-debug-visual-studio/CMakeFiles/ALL_BUILD.dir
+X:/C++Proj/ICM/cmake-build-debug-visual-studio/CMakeFiles/ZERO_CHECK.dir
+X:/C++Proj/ICM/cmake-build-debug-visual-studio/DBHelper/CMakeFiles/TEST_DB.dir
+X:/C++Proj/ICM/cmake-build-debug-visual-studio/DBHelper/CMakeFiles/ALL_BUILD.dir
+X:/C++Proj/ICM/cmake-build-debug-visual-studio/test/CMakeFiles/TEST.dir
+X:/C++Proj/ICM/cmake-build-debug-visual-studio/test/CMakeFiles/ALL_BUILD.dir

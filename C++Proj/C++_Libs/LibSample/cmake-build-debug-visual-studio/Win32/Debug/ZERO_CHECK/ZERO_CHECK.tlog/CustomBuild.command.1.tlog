@@ -1,0 +1,10 @@
+^X:\C++PROJ\C++_LIBS\CMAKE-BUILD-DEBUG-VISUAL-STUDIO\CMAKEFILES\5627DA61E21318A3473A8145C68DF857\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -SX:/C++Proj/C++_Libs -BX:/C++Proj/C++_Libs/cmake-build-debug-visual-studio --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file X:/C++Proj/C++_Libs/cmake-build-debug-visual-studio/C___Libs.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

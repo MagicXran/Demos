@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/inc/DBOraclePool.hpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/inc/l1vip_sstruct.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/inc/universal_toolbox.hpp" charset="GBK" />
+  </component>
+</project>

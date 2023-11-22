@@ -1,0 +1,2 @@
+C:\Projects\ICM\cmake-build-debug-visual-studio\DBHelper\Debug\ociliba.dll
+C:\Projects\ICM\cmake-build-debug-visual-studio\DBHelper\TEST_DB.dir\Debug\TEST_DB.vcxproj.CopyComplete

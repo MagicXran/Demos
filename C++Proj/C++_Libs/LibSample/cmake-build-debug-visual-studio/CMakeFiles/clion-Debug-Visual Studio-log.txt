@@ -1,0 +1,8 @@
+"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -G "Visual Studio 16 2019" -A Win32 -S X:\C++Proj\C++_Libs -B X:\C++Proj\C++_Libs\cmake-build-debug-visual-studio
+-- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.22621.
+'SRC_LIST'X:/C++Proj/C++_Libs/test/src/library.cpp
+'CMAKE_CURRENT_SOURCE_DIR'X:/C++Proj/C++_Libs/test
+'PROJECT_SOURCE_DIR'X:/C++Proj/C++_Libs/test
+-- Configuring done (0.0s)
+-- Generating done (0.1s)
+-- Build files have been written to: X:/C++Proj/C++_Libs/cmake-build-debug-visual-studio
