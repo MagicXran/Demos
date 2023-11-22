@@ -1,0 +1,12 @@
+{
+  "home": {
+    "systemInfo": "系统信息",
+    "loginTimeExpired": "登录状态过期，请重新登录",
+    "lang": "语言",
+    "zh": "中文",
+    "en": "English"
+  },
+  "config": {
+    "title": "智慧能源管理平台"
+  }
+}
