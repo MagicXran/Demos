@@ -1,0 +1,10 @@
+"X:\Apps\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S X:\Demos\C++Proj\QtSlabTempCompared -B X:\Demos\C++Proj\QtSlabTempCompared\cmake-build-debug-mingwqt
+Dll_List:SlabTempCalDll
+INC_DIR:X:/Demos/C++Proj/QtSlabTempCompared/inc
+copyC:/Qt/5.15.2/mingw81_32/bin/Qt5Core.dll---->:QtSlabTempCompared>
+copyC:/Qt/5.15.2/mingw81_32/bin/Qt5Gui.dll---->:QtSlabTempCompared>
+copyC:/Qt/5.15.2/mingw81_32/bin/Qt5Widgets.dll---->:QtSlabTempCompared>
+copyX:/Demos/C++Proj/QtSlabTempCompared/libs/SlabTempCalDll.dll---->X:/Demos/C++Proj/QtSlabTempCompared/cmake-build-debug-mingwqt
+-- Configuring done (0.3s)
+-- Generating done (0.1s)
+-- Build files have been written to: X:/Demos/C++Proj/QtSlabTempCompared/cmake-build-debug-mingwqt

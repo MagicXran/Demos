@@ -20,14 +20,15 @@ find_package(Qt5 COMPONENTS
         REQUIRED)
 
 set(INC_DIR ${PROJECT_SOURCE_DIR}/inc)
-message("PROJECT_SOURCE_DIR:" ${CMAKE_CURRENT_SOURCE_DIR}/inc)
+set(Dll_List SlabTempCalDll)
+message("Dll_List:" ${Dll_List})
 message("INC_DIR:" ${INC_DIR})
 add_executable(QtSlabTempCompared main.cpp
         slabtempcomaredrender.cpp
         slabtempcomaredrender.h
         slabtempcomaredrender.ui
         temp_calc.cpp
-        )
+)
 
 target_include_directories(QtSlabTempCompared PRIVATE ${INC_DIR})
 
@@ -39,7 +40,7 @@ target_link_libraries(QtSlabTempCompared
         Qt5::Gui
         Qt5::Widgets
         Qt5::Charts
-        )
+)
 
 target_link_libraries(QtSlabTempCompared SlabTempCalDll)
 
@@ -72,4 +73,12 @@ if (WIN32 AND NOT DEFINED CMAKE_TOOLCHAIN_FILE)
                 "$<TARGET_FILE_DIR:${PROJECT_NAME}>")
         message("copy" "${QT_INSTALL_PATH}/bin/Qt5${QT_LIB}${DEBUG_SUFFIX}.dll" "---->" ${TARGET_FILE_DIR}:${PROJECT_NAME}>)
     endforeach (QT_LIB)
+
+    foreach (TDll ${Dll_List})
+        add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
+                COMMAND ${CMAKE_COMMAND} -E copy
+                "${CMAKE_SOURCE_DIR}/libs/${TDll}.dll"
+                "${CMAKE_BINARY_DIR}")
+        message("copy" "${CMAKE_SOURCE_DIR}/libs/${TDll}.dll"  "---->"  ${CMAKE_BINARY_DIR})
+    endforeach (TDll)
 endif ()

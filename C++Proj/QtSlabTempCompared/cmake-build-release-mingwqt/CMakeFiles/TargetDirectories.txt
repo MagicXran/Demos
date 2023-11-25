@@ -1,0 +1,4 @@
+X:/Demos/C++Proj/QtSlabTempCompared/cmake-build-release-mingwqt/CMakeFiles/QtSlabTempCompared.dir
+X:/Demos/C++Proj/QtSlabTempCompared/cmake-build-release-mingwqt/CMakeFiles/edit_cache.dir
+X:/Demos/C++Proj/QtSlabTempCompared/cmake-build-release-mingwqt/CMakeFiles/rebuild_cache.dir
+X:/Demos/C++Proj/QtSlabTempCompared/cmake-build-release-mingwqt/CMakeFiles/QtSlabTempCompared_autogen.dir

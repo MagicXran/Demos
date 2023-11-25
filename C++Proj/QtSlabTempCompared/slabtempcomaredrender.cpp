@@ -123,7 +123,7 @@ SlabTempComaredRender::SlabTempComaredRender(QWidget *parent) : QWidget(parent),
     auto axisX = new QValueAxis();
     axisX->setTitleText("点");
     axisX->applyNiceNumbers();
-    axisX->setMax(ROWS);
+    axisX->setMax(50000);
     axisX->setLabelFormat("%u");
     axisX->setGridLineVisible(true);//显示坐标轴的网格线，便于观察
     axisX->setTickCount(4);//x轴由4个值分段，即分为3段
@@ -188,37 +188,37 @@ SlabTempComaredRender::SlabTempComaredRender(QWidget *parent) : QWidget(parent),
 
     connect(series_new, &QSplineSeries::hovered, this, [this](const QPointF &point, bool state) {
         if (state) {
-            QToolTip::showText(QCursor::pos(), QString("新系统温度:%1").arg(point.y()));
+            QToolTip::showText(QCursor::pos(), QString("新系统[%1,%2]").arg(point.x()).arg(point.y()));
         }
     });
 
     connect(series_old, &QSplineSeries::hovered, this, [this](const QPointF &point, bool state) {
         if (state) {
-            QToolTip::showText(QCursor::pos(), QString("老系统温度:%1").arg(point.y()));
+            QToolTip::showText(QCursor::pos(), QString("老系统[%1,%2]").arg(point.x()).arg(point.y()));
         }
     });
 
     connect(series_new_calc, &QSplineSeries::hovered, this, [this](const QPointF &point, bool state) {
         if (state) {
-            QToolTip::showText(QCursor::pos(), QString("模型计算后温度:%1").arg(point.y()));
+            QToolTip::showText(QCursor::pos(), QString("模型计算后[%1,%2]").arg(point.x()).arg(point.y()));
         }
     });
 
     connect(series_3, &QSplineSeries::hovered, this, [this](const QPointF &point, bool state) {
         if (state) {
-            QToolTip::showText(QCursor::pos(), QString("温度:%1").arg(point.y()));
+            QToolTip::showText(QCursor::pos(), QString("[%1,%2]").arg(point.x()).arg(point.y()));
         }
     });
 
     connect(series_2, &QSplineSeries::hovered, this, [this](const QPointF &point, bool state) {
         if (state) {
-            QToolTip::showText(QCursor::pos(), QString("温度:%1").arg(point.y()));
+            QToolTip::showText(QCursor::pos(), QString("[%1,%2]").arg(point.x()).arg(point.y()));
         }
     });
 
     connect(series_1, &QSplineSeries::hovered, this, [this](const QPointF &point, bool state) {
         if (state) {
-            QToolTip::showText(QCursor::pos(), QString("温度:%1").arg(point.y()));
+            QToolTip::showText(QCursor::pos(), QString("[%1,%2]").arg(point.x()).arg(point.y()));
         }
     });
 
@@ -428,7 +428,9 @@ SlabTempComaredRender::SlabTempComaredRender(QWidget *parent) : QWidget(parent),
                                                                                                : THERMEAS_FIR_DR;
 
                                     if (dup[1] == 0) {
+//                                        dup[1] = slab_nums;
                                         dup[1] = slab_nums;
+                                        dup_slabs[1] = SLABCHARGEDISX;
                                         templs_dup[1] = m_para[slab_nums][1];
                                     }
                                 } else if (SLABCHARGEDISX >= EJ && SLABCHARGEDISX < JR) {
@@ -440,6 +442,7 @@ SlabTempComaredRender::SlabTempComaredRender(QWidget *parent) : QWidget(parent),
                                     if (dup[2] == 0) {
                                         dup[2] = slab_nums;
                                         templs_dup[2] = m_para[slab_nums][1];
+                                        dup_slabs[2] = SLABCHARGEDISX;
                                     }
                                 } else if (SLABCHARGEDISX >= JR) {
                                     m_para[slab_nums][0] = (THERMEAS_SOA_UL > THERMEAS_SOA_UR) ? THERMEAS_SOA_UL
@@ -449,6 +452,7 @@ SlabTempComaredRender::SlabTempComaredRender(QWidget *parent) : QWidget(parent),
 
                                     if (dup[3] == 0) {
                                         dup[3] = slab_nums;
+                                        dup_slabs[3] = SLABCHARGEDISX;
                                         templs_dup[3] = m_para[slab_nums][1];
                                     }
                                 } else if (SLABCHARGEDISX < YR) {
@@ -457,6 +461,7 @@ SlabTempComaredRender::SlabTempComaredRender(QWidget *parent) : QWidget(parent),
 
                                     if (dup[4] == 0) {
                                         dup[4] = slab_nums;
+                                        dup_slabs[4] = SLABCHARGEDISX;
                                         templs_dup[4] = m_para[slab_nums][1];
                                     }
                                 }
@@ -464,7 +469,7 @@ SlabTempComaredRender::SlabTempComaredRender(QWidget *parent) : QWidget(parent),
                                 m_para[slab_nums][3] = TEMP_AVE;
                                 m_para[slab_nums][5] = DIACHARGE_AVE;//改为传DIACHARGE_AVE
 
-                                m_new_datas.push_back(QPointF(slab_nums, TEMP_AVE));
+                                m_new_datas.push_back(QPointF(SLABCHARGEDISX, TEMP_AVE));
 //                                series_new->append(slab_nums, TEMP_AVE);
 
                                 LOG_ERROR(uni_box::utils::string_format(
@@ -584,7 +589,7 @@ SlabTempComaredRender::SlabTempComaredRender(QWidget *parent) : QWidget(parent),
 
                                 m_old_para[slab_nums][3] = TEMP_AVE;
 //                                series_old->append(slab_nums, TEMP_AVE);
-                                m_old_datas.push_back(QPointF(slab_nums, TEMP_AVE));
+                                m_old_datas.push_back(QPointF(SLABCHARGEDISX2, TEMP_AVE));
 
 
                                 LOG_ERROR(uni_box::utils::format("slab_nums=%d,pos=%d, m_old_para[slab_nums][3]=%lf",
@@ -653,7 +658,8 @@ SlabTempComaredRender::SlabTempComaredRender(QWidget *parent) : QWidget(parent),
 
                     m_new_calc_datas.clear();
                     for (int tpc = 0; tpc < cnt; tpc++) {
-                        m_new_calc_datas.push_back(QPointF(tpc, m_para[tpc][4]));
+//                        m_new_calc_datas.push_back(QPointF(tpc, m_para[tpc][4]));
+                        m_new_calc_datas.push_back(QPointF(m_para[tpc][2], m_para[tpc][4]));
                         LOG_ERROR(uni_box::utils::string_format("调用Tempcalc后,m_para[%d][4]=%f", tpc,
                                                                 m_para[tpc][4]).c_str(), 0);
                     }
@@ -671,14 +677,14 @@ SlabTempComaredRender::SlabTempComaredRender(QWidget *parent) : QWidget(parent),
                     series_old->append(m_old_datas);
                     series_new_calc->append(m_new_calc_datas);
 
-                    series_1->append(dup[1], 0);
-                    series_1->append(dup[1], templs_dup[1]);
+                    series_1->append(dup_slabs[1], 0);
+                    series_1->append(dup_slabs[1], templs_dup[1]);
 
-                    series_2->append(dup[2], 0);
-                    series_2->append(dup[2], templs_dup[2]);
+                    series_2->append(dup_slabs[2], 0);
+                    series_2->append(dup_slabs[2], templs_dup[2]);
 
-                    series_3->append(dup[3], 0);
-                    series_3->append(dup[3], templs_dup[3]);
+                    series_3->append(dup_slabs[3], 0);
+                    series_3->append(dup_slabs[3], templs_dup[3]);
 
 
                     ui->yu_bf_txt->setText(QString::number(m_para[dup[1]][3] - templs[1]));
@@ -824,14 +830,21 @@ SlabTempComaredRender::SlabTempComaredRender(QWidget *parent) : QWidget(parent),
     });
 
 
+    // 双击计算
     connect(slabTableWidget, &QTableWidget::itemDoubleClicked, this,
             [this, slabTableWidget, lose_focus, commonFunction](QTableWidgetItem *item) {
                 if (item->isSelected()) {
                     slabTableWidget->close();
 
                     ui->coil_id_txt->setText(item->text());
-                    lose_focus();
-                    commonFunction();
+                    try {
+                        lose_focus();
+                        commonFunction();
+                    }
+                    catch (const std::exception &e) {
+                        std::cout << "error -1: " << e.what() << std::endl;
+                        LOG_ERROR(e.what(), -1);
+                    }
                 }
 
 
