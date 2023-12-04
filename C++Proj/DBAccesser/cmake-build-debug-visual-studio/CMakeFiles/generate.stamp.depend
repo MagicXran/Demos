@@ -1,0 +1,26 @@
+# CMake generation dependency list for this directory.
+X:/Apps/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake
+X:/Apps/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake
+X:/Apps/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake
+X:/Apps/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDependentOption.cmake
+X:/Apps/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake
+X:/Apps/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake
+X:/Apps/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake
+X:/Apps/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake
+X:/Apps/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake
+X:/Apps/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake
+X:/Apps/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+X:/Apps/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/MSVC-C.cmake
+X:/Apps/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/MSVC-CXX.cmake
+X:/Apps/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/MSVC.cmake
+X:/Apps/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-MSVC-C.cmake
+X:/Apps/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-MSVC-CXX.cmake
+X:/Apps/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-MSVC.cmake
+X:/Apps/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake
+X:/Apps/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
+X:/Demos/C++Proj/DBAccesser/CMakeLists.txt
+X:/Demos/C++Proj/DBAccesser/cmake-build-debug-visual-studio/CMakeFiles/3.26.4/CMakeCCompiler.cmake
+X:/Demos/C++Proj/DBAccesser/cmake-build-debug-visual-studio/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake
+X:/Demos/C++Proj/DBAccesser/cmake-build-debug-visual-studio/CMakeFiles/3.26.4/CMakeRCCompiler.cmake
+X:/Demos/C++Proj/DBAccesser/cmake-build-debug-visual-studio/CMakeFiles/3.26.4/CMakeSystem.cmake
+X:/vcpkg/scripts/buildsystems/vcpkg.cmake

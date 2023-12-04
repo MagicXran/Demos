@@ -1,0 +1,9 @@
+"X:\Apps\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -G "Visual Studio 16 2019" -A Win32 -DCMAKE_TOOLCHAIN_FILE=X:\vcpkg\scripts\buildsystems\vcpkg.cmake -S X:\Demos\C++Proj\DBAccesser -B X:\Demos\C++Proj\DBAccesser\cmake-build-debug-visual-studio
+-- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.22631.
+ CMAKE_CURRENT_SOURCE_DIR :X:/Demos/C++Proj/DBAccesser/dblib
+ CMAKE_BUILD_TYPE :Debug
+ INC_PATH :X:/Demos/C++Proj/DBAccesser/include
+ LIB_PATH :X:/Demos/C++Proj/DBAccesser/debug/lib
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: X:/Demos/C++Proj/DBAccesser/cmake-build-debug-visual-studio

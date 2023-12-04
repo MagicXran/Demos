@@ -1,0 +1,3 @@
+X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw/CMakeFiles/C__20Lrn.dir
+X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
+X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir

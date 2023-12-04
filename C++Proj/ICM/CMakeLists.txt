@@ -38,4 +38,4 @@ set(LIBRARY_DIRS "C:/Program Files (x86)/NERCAR/PCDP/API"
 #add_subdirectory(JsonParser)
 add_subdirectory(DBHelper)
 #add_subdirectory(ERP)
-add_subdirectory(test)
+#add_subdirectory(test)

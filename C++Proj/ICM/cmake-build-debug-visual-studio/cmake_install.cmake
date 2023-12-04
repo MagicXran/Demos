@@ -1,4 +1,4 @@
-# Install script for directory: X:/C++Proj/ICM
+# Install script for directory: X:/Demos/C++Proj/ICM
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("X:/C++Proj/ICM/cmake-build-debug-visual-studio/DBHelper/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("X:/C++Proj/ICM/cmake-build-debug-visual-studio/test/cmake_install.cmake")
+  include("X:/Demos/C++Proj/ICM/cmake-build-debug-visual-studio/DBHelper/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "X:/C++Proj/ICM/cmake-build-debug-visual-studio/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "X:/Demos/C++Proj/ICM/cmake-build-debug-visual-studio/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

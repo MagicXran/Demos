@@ -1,4 +1,4 @@
-# Install script for directory: X:/C++Proj/ICM/DBHelper
+# Install script for directory: X:/Demos/C++Proj/ICM/DBHelper
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

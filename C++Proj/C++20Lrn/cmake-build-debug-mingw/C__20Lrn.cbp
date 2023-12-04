@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="C__20Lrn"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="X:/Apps/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="X:/Apps/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="X:/Apps/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="X:/Apps/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C__20Lrn">
+				<Option output="X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw/C__20Lrn.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="X:/Apps/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="X:/Apps/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="X:/Apps/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="X:/Apps/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="X:/Apps/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="X:/Apps/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="X:/Apps/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="X:/Apps/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 C__20Lrn"/>
+					<CompileFile command="X:/Apps/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="X:/Apps/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="X:/Apps/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C__20Lrn/fast">
+				<Option output="X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw/C__20Lrn.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="X:/Apps/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="X:/Apps/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="X:/Apps/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="X:/Apps/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="X:/Apps/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="X:/Apps/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="X:/Apps/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="X:/Apps/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 C__20Lrn/fast"/>
+					<CompileFile command="X:/Apps/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="X:/Apps/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="X:/Apps/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="X:/Apps/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="X:/Apps/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="X:/Apps/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="X:/Apps/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="X:/Apps/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="X:/Apps/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="X:/Apps/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="X:/Apps/CLion 2023.2.2/bin/mingw/bin/mingw32-make.exe -f &quot;X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="X:/Demos/C++Proj/C++20Lrn/main.cpp">
+			<Option target="C__20Lrn"/>
+		</Unit>
+		<Unit filename="X:/Demos/C++Proj/C++20Lrn/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

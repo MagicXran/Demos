@@ -14,12 +14,11 @@ int main() {
         ocilib::Environment::Initialize(ocilib::Environment::Threaded);
         ocilib::Connection conn("nercar", "scc", "scc");
         ocilib::Statement stmt(conn);
-        stmt.Execute("select ID, coil_id from tb_pdi where COIL_ID = 'D500009300'");
+        stmt.Execute("select sysdate ss from dual");
         auto res = stmt.GetResultset();
         res.Next();
 
-        cout << res.Get<int>("ID") << endl;
-        cout << res.Get<std::string>("coil_id") << endl;
+        cout << res.Get<ocilib::Date>("ss"). << endl;
 
 
     } catch (std::exception &e) {

@@ -1,0 +1,10 @@
+^X:\DEMOS\C++PROJ\DBACCESSER\CMAKE-BUILD-DEBUG-VISUAL-STUDIO\CMAKEFILES\2E998B40D9C0DB571FD08A9123B26017\GENERATE.STAMP.RULE
+setlocal
+"X:\Apps\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -SX:/Demos/C++Proj/DBAccesser -BX:/Demos/C++Proj/DBAccesser/cmake-build-debug-visual-studio --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file X:/Demos/C++Proj/DBAccesser/cmake-build-debug-visual-studio/DBAccesser.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

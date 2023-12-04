@@ -1,0 +1,1 @@
+  -LX:/app/Renaissance/product/11.2.0/dbhome_1/OCI/lib/MSVC  C:/Qt/5.15.2/mingw81_32/lib/libQt5Widgets.a C:/Qt/5.15.2/mingw81_32/lib/libQt5Sql.a X:/app/Renaissance/product/11.2.0/client_1/oci.dll C:/Qt/5.15.2/mingw81_32/lib/libQt5Gui.a C:/Qt/5.15.2/mingw81_32/lib/libQt5Core.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

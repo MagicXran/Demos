@@ -1,6 +1,6 @@
-^X:\C++PROJ\C++20LRN\CMAKELISTS.TXT
+^X:\DEMOS\C++PROJ\C++20LRN\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -SX:/C++Proj/C++20Lrn -BX:/C++Proj/C++20Lrn/cmake-build-debug-visual-studio --check-stamp-file X:/C++Proj/C++20Lrn/cmake-build-debug-visual-studio/CMakeFiles/generate.stamp
+"X:\Apps\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -SX:/Demos/C++Proj/C++20Lrn -BX:/Demos/C++Proj/C++20Lrn/cmake-build-debug-visual-studio --check-stamp-file X:/Demos/C++Proj/C++20Lrn/cmake-build-debug-visual-studio/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

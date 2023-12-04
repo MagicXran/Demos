@@ -1,0 +1,9 @@
+{
+  "name" : "dbaccesser",
+  "version-string" : "1.0.0",
+  "builtin-baseline" : "16ee2ecb31788c336ace8bb14c21801efb6836e4",
+  "dependencies" : [ {
+    "name" : "ocilib",
+    "version>=" : "4.7.6"
+  } ]
+}

@@ -1,0 +1,4 @@
+X:/Demos/C++Proj/DBAccesser/cmake-build-debug-visual-studio/CMakeFiles/ALL_BUILD.dir
+X:/Demos/C++Proj/DBAccesser/cmake-build-debug-visual-studio/CMakeFiles/ZERO_CHECK.dir
+X:/Demos/C++Proj/DBAccesser/cmake-build-debug-visual-studio/dblib/CMakeFiles/dblib.dir
+X:/Demos/C++Proj/DBAccesser/cmake-build-debug-visual-studio/dblib/CMakeFiles/ALL_BUILD.dir

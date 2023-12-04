@@ -1,0 +1,12 @@
+# ninja log v5
+3	237	7231865007940252	Listener_autogen/timestamp	bc9088bd726284a6
+3	237	7231865007940252	Listener_autogen/mocs_compilation.cpp	bc9088bd726284a6
+3	237	7231865007940252	X:/Demos/C++Proj/Listener/cmake-build-debug/Listener_autogen/timestamp	bc9088bd726284a6
+3	237	7231865007940252	X:/Demos/C++Proj/Listener/cmake-build-debug/Listener_autogen/mocs_compilation.cpp	bc9088bd726284a6
+238	303	7231865009089750	CMakeFiles/Listener.dir/Listener_autogen/mocs_compilation.cpp.obj	b9642b594d276b3f
+242	1706	7231865023130483	CMakeFiles/Listener.dir/main.cpp.obj	6841135d2c59657f
+1708	2200	7231865024889974	Listener.exe	805a89851f99d7f
+6	121	7231865252120652	Listener_autogen/timestamp	bc9088bd726284a6
+6	121	7231865252120652	Listener_autogen/mocs_compilation.cpp	bc9088bd726284a6
+6	121	7231865252120652	X:/Demos/C++Proj/Listener/cmake-build-debug/Listener_autogen/timestamp	bc9088bd726284a6
+6	121	7231865252120652	X:/Demos/C++Proj/Listener/cmake-build-debug/Listener_autogen/mocs_compilation.cpp	bc9088bd726284a6

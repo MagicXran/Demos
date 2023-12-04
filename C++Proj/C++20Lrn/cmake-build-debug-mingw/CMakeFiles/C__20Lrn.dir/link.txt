@@ -1,0 +1,3 @@
+"X:\Apps\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\C__20Lrn.dir/objects.a
+"X:\Apps\CLion 2023.2.2\bin\mingw\bin\ar.exe" qc CMakeFiles\C__20Lrn.dir/objects.a @CMakeFiles\C__20Lrn.dir\objects1.rsp
+"X:\Apps\CLion 2023.2.2\bin\mingw\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\C__20Lrn.dir/objects.a -Wl,--no-whole-archive -o C__20Lrn.exe -Wl,--out-implib,libC__20Lrn.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\C__20Lrn.dir\linkLibs.rsp
